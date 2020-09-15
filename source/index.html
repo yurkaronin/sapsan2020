@@ -11,7 +11,111 @@
 <body>
 
   <header class="header">
-    <h1>Привет мир!!!</h1>
+    <div class="header__top  header-top">
+      <div class="wrapper">
+
+        <div class="header-top__left">
+          <!-- блок список контактов в виде иконок -->
+          <div class="contact-icons">
+            <ul class="contact-icons__list">
+              <li><a class="contact-icons__link  contact-icons__link--fb" href="">фэйсбук</a></li>
+              <li><a class="contact-icons__link  contact-icons__link--vk" href="">вконтакте</a></li>
+              <li><a class="contact-icons__link  contact-icons__link--yt" href="">ютуб</a></li>
+              <li><a class="contact-icons__link  contact-icons__link--ok" href="">одноклассники</a></li>
+              <li><a class="contact-icons__link  contact-icons__link--in" href="">инстаграм</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="header-top__center">
+          <div class="search">
+            <!-- блок с полем поиска по сайту  -->
+            <form class="search-area" action="" method="get">
+              <label class="visually-hidden" for="search-input">Найти</label>
+              <input class="search-area__input" id="search-input" type="text" name="search"
+                placeholder="Поиск по сайту">
+              <button class="search-area__button" type="submit">Найти</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="header-top__right">
+          <div class="header-contacts">
+            <!-- блок с переключателем языка сайта  -->
+            <div class="lang-select">
+              <a class="lang-select__title-link" href="">Язык</a>
+              <ul class="lang-select__list">
+                <li><a class="lang-select__link" href="">Ru</a></li>
+                <li><a class="lang-select__link" href="">En</a></li>
+              </ul>
+            </div>
+            <!-- блок список контактов в виде иконок  --прозрачный фон-->
+            <div class="contact-icons  contact-icons--transparent">
+              <ul class="contact-icons__list">
+                <li><a class="contact-icons__link  contact-icons__link--tel" href="">Телефон</a></li>
+                <li><a class="contact-icons__link  contact-icons__link--email" href="">Электронная почта</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header__middle  header-middle">
+
+      <div class="header-middle__left">
+        <!-- блок с логотипом компании  -->
+        <div class="main-logo">
+          <a class="main-logo__link" href=""><img class="main-logo__image" src="/img/logo/main-logo.png"
+              alt="Логотип Сапсан" width="158.38" height="72.15"></a>
+        </div>
+      </div>
+
+      <div class="header-middle__right">
+        <!-- блок с ссылками на модалки  -->
+        <div class="modal-links">
+          <ul class="modal-links__list">
+            <li><a class="modal-links__link" href="">Консультация инженера</a></li>
+            <li><a class="modal-links__link" href="">Подобрать фотосепаратор</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="header__bottom">
+      <!-- блок с основным навигационным меню сайта  -->
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="">Главная</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="">Каталог</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="">Услуги</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="">Продукты</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="">Технологии</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="">Статьи</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="">О компании</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
   </header>
 
   <main class="main">
