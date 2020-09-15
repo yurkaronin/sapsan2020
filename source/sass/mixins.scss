@@ -1,0 +1,14 @@
+@mixin center-x {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin main-font {
+  font-size: 17px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  line-height: 24px;
+}
+
+@mixin menu-button-shadow {
+  box-shadow: inset 0 -1px 0 $ligther-grey, 0 -1px 0 $ligther-grey;
+}

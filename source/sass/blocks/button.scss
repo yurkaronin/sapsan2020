@@ -1,0 +1,14 @@
+.button {
+  &:hover {
+    border: 2px solid $greyish-black;
+    background: linear-gradient(0deg, $greyish-black, $greyish-black);
+    color: $white;
+  }
+
+  &:focus {
+    border: 2px solid $greyish-black;
+    background: linear-gradient(0deg, $greyish-black, $greyish-black);
+    color: rgba($white, 0.3);
+    outline: none;
+  }
+}
