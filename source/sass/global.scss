@@ -24,3 +24,12 @@ img {
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+/* для теста  */
+.tabs__item {
+  display: none;
+}
+
+.tabs__item--active {
+  display: block;
+}
