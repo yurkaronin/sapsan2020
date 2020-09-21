@@ -1,0 +1,33 @@
+.social-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.social-list__link {
+  font-size: 0;
+  line-height: 0;
+  margin-right: 10px;
+  display: block;
+}
+
+.social-list__link--fb::before {
+  content: url("../img/icons/fb.svg");
+}
+
+.social-list__link--vk::before {
+  content: url("../img/icons/vk.svg");
+}
+
+.social-list__link--yt::before {
+  content: url("../img/icons/yt.svg");
+}
+
+.social-list__link--ok::before {
+  content: url("../img/icons/ok.svg");
+}
+
+.social-list__link--in::before {
+  content: url("../img/icons/inst.svg");
+}

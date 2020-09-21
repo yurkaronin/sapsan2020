@@ -1,0 +1,19 @@
+.first-screen {
+  background-color: #1e1e1e;
+  background-image: url("../img/bg/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 55px 0 180px;
+}
+
+.first-screen__title {
+  font-size: 54px;
+  color: #ffffff;
+  max-width: 870px;
+}
+
+.first-screen__title span {
+  color: #d4af5e;
+}

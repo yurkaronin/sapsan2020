@@ -1,4 +1,14 @@
+@import "normalize";
 @import "fonts";
-@import "variables";
 @import "global";
-/* @import "blocks/page"; тут начинаем подключать блоки в желаемом порядке. помни про каскадность стилей!!! Блеать! */
+@import "blocks/header";
+@import "blocks/social-list";
+@import "blocks/contact-list";
+@import "blocks/lang";
+@import "blocks/search";
+@import "blocks/navigation-list";
+@import "blocks/navigation-sublist";
+@import "blocks/benefit-card";
+
+@import "sections/first-screen";
+@import "sections/advantages";

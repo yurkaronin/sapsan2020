@@ -1,0 +1,40 @@
+.benefit-card {
+  padding: 26px;
+  padding-bottom: 180px;
+  background-color: #ffffff;
+  color: #000000;
+  position: relative;
+}
+
+.benefit-card--2 {
+  background-color: #484646;
+  color: #ffffff;
+}
+
+.benefit-card--3 {
+  background-color: #484646;
+  color: #ffffff;
+}
+
+.benefit-card--3 .benefit-card__image {
+  filter: brightness(65%);
+}
+
+.benefit-card--4 {
+  background-color: #c6c6c6;
+}
+
+.benefit-card__image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.benefit-card__title,
+.benefit-card__text {
+  margin: 0;
+  margin-bottom: 20px;
+  z-index: 2;
+  position: relative;
+}

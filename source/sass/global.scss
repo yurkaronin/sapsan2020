@@ -1,3 +1,14 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -16,20 +27,39 @@ img {
   overflow: hidden;
 }
 
-*:focus {
-  outline: 3px solid rgba($tiffany, 0.5);
-  outline-offset: 1px;
-}
-
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 14px;
+  line-height: 120%;
+  font-style: normal;
 }
 
-/* для теста  */
 .tabs__item {
   display: none;
 }
 
 .tabs__item--active {
   display: block;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.title {
+  color: #000000;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 120%;
+  margin: 0;
+  margin-bottom: 80px;
 }
