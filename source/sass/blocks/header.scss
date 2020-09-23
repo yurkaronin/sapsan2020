@@ -23,7 +23,7 @@
 
 .header__widgets {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -40,7 +40,6 @@
 .header__middle {
   background-color: #ffffff;
   color: #000000;
-  padding-bottom: 20px;
 }
 
 .header__middle .header__wrapper {
@@ -85,4 +84,8 @@
 
 .header__sub-navigation {
   background-color: #f1f1f1;
+}
+
+.header .contact-list {
+  margin-left: 20px;
 }

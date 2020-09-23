@@ -1,9 +1,13 @@
 .advantages {
-  margin-top: -110px;
+  background-color: #f0f0f0;
+}
+
+.advantages .wrapper {
+  padding: 0 10px;
 }
 
 .advantages__list {
-  max-width: 1120px;
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,9 +15,12 @@
   list-style: none;
   padding: 0;
   margin: 0 auto;
+  padding-bottom: 110px;
+
 }
 
 .advantages__item {
   max-width: 280px;
   min-height: 370px;
+  margin-top: -110px;
 }

@@ -6,10 +6,10 @@ var swiper_1 = new Swiper('.swiper-container-1', {
     el: '.swiper-pagination-1',
     clickable: true,
   },
-  autoplay: {
+  /* autoplay: {
     delay: 2500,
     disableOnInteraction: false,
-  },
+  }, */
 });
 
 var swiper_2 = new Swiper('.swiper-container-2', {
@@ -20,8 +20,8 @@ var swiper_2 = new Swiper('.swiper-container-2', {
     el: '.swiper-pagination-2',
     clickable: true,
   },
-  autoplay: {
+  /* autoplay: {
     delay: 2500,
     disableOnInteraction: false,
-  },
+  }, */
 });

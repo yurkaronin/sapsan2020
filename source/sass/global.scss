@@ -45,10 +45,10 @@ body {
 }
 
 .wrapper {
-  max-width: 1440px;
+  max-width: 1140px;
   margin: 0 auto;
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .main {
@@ -62,4 +62,16 @@ body {
   line-height: 120%;
   margin: 0;
   margin-bottom: 80px;
+}
+
+.button {
+  color: #000000;
+  background-color: #d4af5e;
+  padding: 20px 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 800;
+  text-transform: uppercase;
 }
