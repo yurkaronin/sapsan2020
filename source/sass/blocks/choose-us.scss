@@ -1,0 +1,65 @@
+.choose-us {
+  position: relative;
+  z-index: 2;
+  padding: 55px 0 65px;
+  background-color: #ffffff;
+}
+.choose-us__title {
+  margin-bottom: 45px;
+}
+
+.choose-us__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.choose-us__item {
+  max-width: 350px;
+  width: 100%;
+  margin-bottom: 72px;
+  padding-left: 100px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.choose-us__item::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  display: block;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.choose-us__item--1::after {
+  background-image: url("../img/icons/services/1.svg");
+}
+
+.choose-us__item--2::after {
+  background-image: url("../img/icons/services/2.svg");
+}
+
+.choose-us__item--3::after {
+  background-image: url("../img/icons/services/3.svg");
+}
+
+.choose-us__item--4::after {
+  background-image: url("../img/icons/services/4.svg");
+}
+
+.choose-us__item--5::after {
+  background-image: url("../img/icons/services/5.svg");
+}
+
+.choose-us__item--6::after {
+  background-image: url("../img/icons/services/6.svg");
+}
