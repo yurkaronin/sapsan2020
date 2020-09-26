@@ -7,7 +7,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .header__social,
@@ -88,4 +87,9 @@
 
 .header .contact-list {
   margin-left: 20px;
+}
+
+.header__bottom .header__links-list,
+.header__bottom .social-list {
+  display: none;
 }

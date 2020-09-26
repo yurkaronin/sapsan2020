@@ -25,3 +25,17 @@ var swiper_2 = new Swiper('.swiper-container-2', {
     disableOnInteraction: false,
   }, */
 });
+
+/* Бургер меню  */
+$(document).ready(function() {
+	$('#nav-icon').click(function() {
+		$(this).toggleClass('open');
+	});
+});
+
+$('body').on('click', '.menu-control__button', function() {
+
+	$('.header__bottom').toggleClass('show-nawigation');
+
+	return false;
+});
