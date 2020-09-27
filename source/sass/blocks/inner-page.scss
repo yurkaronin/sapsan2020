@@ -8,6 +8,10 @@
   color: #ffffff;
 }
 
+.inner-page--details .first-screen {
+  background-image: url(../img/bg/our-services-details.jpg);
+}
+
 .inner-page .first-screen__title {
   margin: 0;
 }
@@ -19,4 +23,24 @@
 .inner-page .product-tabs__title {
   font-size: 0;
   line-height: 0;
+}
+
+.inner-page--details .content {
+  position: relative;
+}
+
+.inner-page--details .content::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #f0f0f0;
+  height: 100%;
+  width: 100%;
+  left: -20%;
+  top: 0;
+  z-index: -1;
+}
+
+.inner-page--details .content__text {
+  padding: 5px 160px 40px 0;
 }

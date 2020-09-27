@@ -1,0 +1,32 @@
+.product-list {
+  padding: 50px 0 0;
+  background-image: linear-gradient(to left, #d4af5e 35%, transparent 28%);
+}
+
+.product-list__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-list__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  max-width: 850px;
+  padding-right: 30px;
+}
+
+.product-list__filter {
+  max-width: 260px;
+  width: 100%;
+  background-color: #d4af5e;
+  color: #000000;
+  padding: 50px 35px 150px;
+}
+
+.product-list__pagination {
+  max-width: 350px;
+}

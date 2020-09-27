@@ -1,0 +1,33 @@
+.page-content {
+  padding: 0 0 45px;
+}
+
+.page-content__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.page-content__image-list {
+  max-width: 300px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: -40px;
+}
+
+.page-content__image-item {
+  margin-bottom: 35px;
+}
+
+.page-content__picture {
+  width: 284px;
+  height: 256px;
+  object-fit: cover;
+}
+
+.page-content__text {
+  max-width: 760px;
+  padding-top: 60px;
+}
