@@ -6,6 +6,7 @@
 .pagination__wrapper {
     border: 4px solid #d4af5e;
     padding: 15px;
+    max-width: 350px;
 }
 
 .pagination__list {
@@ -30,6 +31,6 @@
   color: #d4af5e;
 }
 
-.page-prev .pagination__link--disabled {
+.pagination__link--disabled {
   opacity: 0.4;
 }

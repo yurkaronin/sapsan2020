@@ -22,11 +22,11 @@
   font-weight: 700;
 }
 
-.filter__check {
+.filter-list__check {
   display: none;
 }
 
-.filter__label {
+.filter-list__label {
   position: relative;
   font-size: 12px;
   line-height: 20px;
@@ -37,7 +37,7 @@
   padding-left: 37px;
 }
 
-.filter__label--check::before {
+.filter-list__label--check::before {
   content: "";
   width: 23px;
   height: 23px;
