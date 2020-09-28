@@ -43,3 +43,26 @@
   text-decoration: none;
   max-width: 300px;
 }
+
+.service-card__button {
+  max-width: 370px;
+}
+
+.service-card--light {
+
+  margin: 0;
+  padding: 50px;
+}
+
+.service-card--light::after {
+  top: 0;
+  height: 96%;
+}
+
+.service-card__title--big {
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 120%;
+  margin-bottom: 30px;
+  text-transform: none;
+}

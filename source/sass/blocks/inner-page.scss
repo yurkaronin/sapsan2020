@@ -39,3 +39,86 @@
 .inner-page--details .content__text {
   padding: 5px 160px 40px 0;
 }
+
+.inner-page--contacts {
+  background-color: #f0f0f0;
+}
+
+.inner-page--contacts .first-screen {
+  background-image: none;
+  background-color: #f0f0f0;
+  color: #000000;
+  padding-bottom: 30px;
+}
+
+.inner-page--contacts .first-screen__title {
+  color: #000000;
+}
+
+.inner-page--contacts .breadcrumbs__link {
+  color: #000000;
+}
+
+.inner-page--tehnology {
+
+}
+
+.inner-page--tehnology .content {
+  background-color: #f0f0f0;
+  padding: 60px 0 80px;
+}
+
+.inner-page--tehnology .content__text {
+  margin-bottom: 70px;
+}
+
+.inner-page--tehnology .articles::before {
+  display: none;
+}
+
+.inner-page--tehnology .articles__list {
+  margin-top: -155px;
+}
+
+.inner-page--tehnology .announcement {
+  max-width: 285px;
+}
+
+.inner-page--tehnology .announcement__title {
+  padding-bottom: 40px;
+  margin-bottom: 0;
+}
+
+.inner-page--tehnology .articles {
+  padding-bottom: 50px;
+}
+
+.inner-page--tehnology .service-card {
+  padding-bottom: 60px;
+}
+
+.inner-page--tehnology .service-card::after {
+  height: 100%;
+  top: 0;
+}
+
+.inner-page--tehnology .service-card--light::after {
+  height: 83%;
+}
+
+.inner-page--tehnology .service-card__text,
+.service-card--light form {
+  padding-right: 50px;
+}
+
+.inner-page--tehnology .service-card__text {
+  margin-top: 0;
+}
+
+.inner-page--tehnology .service-card__title {
+  margin-bottom: 25px;
+}
+
+.inner-page--tehnology .services__title {
+  margin-bottom: 25px;
+}
