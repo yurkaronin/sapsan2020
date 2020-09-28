@@ -8,6 +8,19 @@
   padding: 65px 0 140px;
 }
 
+.first-screen--about {
+  background-image: url("../img/bg/about-comp.jpg");
+  background-position: bottom !important;
+}
+
+.first-screen--our-serv {
+  background-image: url("../img/bg/our-services-details.jpg");
+}
+
+.first-screen--serv-all {
+  background-image: url("../img/bg/our-services.jpg");
+}
+
 .first-screen__title {
   font-size: 54px;
   color: #ffffff;
