@@ -1,0 +1,43 @@
+.catalog-promo {
+  background-color: #f0f0f0;
+}
+
+.catalog-promo .wrapper {
+  overflow: hidden;
+}
+
+.catalog-promo__slider {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.catalog-promo__pagination {
+  position: absolute;
+  bottom: 40px !important;
+  z-index: 10;
+  left: 6px !important;
+}
+
+.catalog-promo__pagination .swiper-pagination-bullet {
+  margin: 0 16px !important;
+}
+
+.catalog-promo__pagination .swiper-pagination-bullet-active {
+  background-color: #d4af5e;
+  position: relative;
+}
+
+.catalog-promo__pagination .swiper-pagination-bullet-active::before {
+  content: "";
+  background-color: #d4af5e;
+  opacity: 0.3;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: block;
+  border-radius: 50%;
+  top: -70%;
+  left: -70%;
+}

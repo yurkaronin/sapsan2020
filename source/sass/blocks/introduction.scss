@@ -1,0 +1,20 @@
+.introduction {
+  position: relative;
+  padding: 55px 0;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #f0f0f0;
+    height: 100%;
+    width: 100%;
+    left: -20%;
+    top: 0;
+    z-index: -1;
+  }
+
+  &__cite {
+    padding: 5px 160px 40px 0;
+  }
+}

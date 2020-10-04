@@ -1,0 +1,32 @@
+.search__form {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.search__input {
+  max-width: 495px;
+  width: 100%;
+  border: none;
+  background-color: #f0f0f0;
+  padding: 14px;
+}
+
+.search__button {
+  width: 45px;
+  background-color: #d4af5e;
+  font-size: 0;
+  line-height: 0;
+  position: relative;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 11px;
+}
+
+.search__button::after {
+  content: url("../img/icons/search.svg");
+}

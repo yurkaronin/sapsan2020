@@ -1,0 +1,64 @@
+.navigation-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-list__link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  transition: 0.3s;
+  display: flex;
+}
+
+.navigation-list__link:hover,
+.navigation-list__link:focus,
+.navigation-list__link:active,
+.navigation-list__link:focus-within {
+  color: #d4af5e;
+}
+
+.navigation-list__link:hover::after,
+.navigation-list__link:focus::after,
+.navigation-list__link:active::after,
+.navigation-list__link:focus-within::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #d4af5e;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.navigation-list__item--sub:hover .navigation-list__link--sub,
+.navigation-list__item--sub:focus-within .navigation-list__link--sub,
+.navigation-list__item--sub:active .navigation-list__link--sub {
+  background-color: #d4af5e;
+  color: #000000;
+}
+
+.navigation-list__item--sub:hover .navigation-list__link--sub::after,
+.navigation-list__item--sub:focus-within .navigation-list__link--sub::after,
+.navigation-list__item--sub:active .navigation-list__link--sub::after {
+  display: none;
+}
+
+.navigation-list__item--sub:hover .navigation-sublist,
+.navigation-list__item--sub:focus-within .navigation-sublist,
+.navigation-list__item--sub:active .navigation-sublist {
+  display: block;
+}

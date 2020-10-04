@@ -1,0 +1,27 @@
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80px;
+}
+
+.contact-list__link {
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+  max-width: 32px;
+  margin: 0;
+  margin-right: 10px;
+  fill: #ffffff;
+}
+
+.contact-list__link:hover,
+.contact-list__link:active,
+.contact-list__link:focus,
+.contact-list__link:focus-within {
+  fill: #d4af5e;
+}
