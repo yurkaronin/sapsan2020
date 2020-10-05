@@ -11,4 +11,35 @@
 
 .social-list__icon {
   fill: #d4af5e;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-list__link--inst:hover .social-list__icon,
+.social-list__link--inst:focus .social-list__icon,
+.social-list__link--inst:active .social-list__icon {
+  fill: #db00ee;
+}
+
+.social-list__link--fb:hover .social-list__icon,
+.social-list__link--fb:focus .social-list__icon,
+.social-list__link--fb:active .social-list__icon {
+  fill: #4b7ad6;
+}
+
+.social-list__link--vk:hover .social-list__icon,
+.social-list__link--vk:focus .social-list__icon,
+.social-list__link--vk:active .social-list__icon {
+  fill: #60a9ff;
+}
+
+.social-list__link--ok:hover .social-list__icon,
+.social-list__link--ok:focus .social-list__icon,
+.social-list__link--ok:active .social-list__icon {
+  fill: #ff8a00;
+}
+
+.social-list__link--yt:hover .social-list__icon,
+.social-list__link--yt:focus .social-list__icon,
+.social-list__link--yt:active .social-list__icon {
+  fill: #ff0000;
 }

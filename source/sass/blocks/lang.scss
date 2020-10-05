@@ -58,6 +58,7 @@
   text-align: center;
   font-weight: 700;
   width: 100%;
+  transition: all 0.3s ease-in-out;
 }
 
 .lang-list__link:hover {
@@ -77,7 +78,6 @@
 
 .lang-list__item:hover .lang-list__sub,
 .lang-list__item:focus .lang-list__sub,
-.lang-list__item:focus-within .lang-list__sub,
 .lang-list__item:active .lang-list__sub {
   display: block;
 }

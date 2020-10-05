@@ -1,6 +1,10 @@
+/* Служебные блоки  */
 @import "normalize";
 @import "fonts";
 @import "global";
+@import "blocks/wrapper";
+@import "blocks/visually-hidden";
+
 @import "blocks/header";
 @import "blocks/social-list";
 @import "blocks/contact-list";
