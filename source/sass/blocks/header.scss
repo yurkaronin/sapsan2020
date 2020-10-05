@@ -63,18 +63,23 @@
 }
 
 .header__links__item {
-  padding-top: 15px;
-  padding-bottom: 5px;
-  max-width: 270px;
+  padding: 15px 20px 12px;
+  max-width: 280px;
   font-weight: 700;
   color: #000000;
-  text-decoration: none;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 1px;
   text-transform: uppercase;
-  border-bottom: 4px solid #d4af5e;
+  transition: all 0.3s ease-in-out;
+  /* border-bottom: 4px solid #d4af5e; */
+}
+
+.header__links__item:hover,
+.header__links__item:focus,
+.header__links__item:active {
+  background-color: #d4af5e;
+  text-decoration: none;
 }
 
 .header__bottom {
