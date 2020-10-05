@@ -20,6 +20,10 @@
   text-decoration: none;
 }
 
+.breadcrumbs__link--black {
+  color: #000000;
+}
+
 .breadcrumbs__link::after {
   content: ">";
   position: absolute;

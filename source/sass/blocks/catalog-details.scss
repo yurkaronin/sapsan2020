@@ -1,0 +1,20 @@
+.catalog-details {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 40px 0;
+}
+
+.catalog-details__title {
+  margin-bottom: 65px;
+}
+
+.catalog-details__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.catalog-details__table {
+  max-width: 520px;
+  margin-right: 30px;
+}

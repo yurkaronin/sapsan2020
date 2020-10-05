@@ -4,6 +4,12 @@
   padding: 60px 0 100px;
 }
 
+.content-area--white {
+  background-color: #ffffff;
+  padding-top: 190px;
+  padding-bottom: 140px;
+}
+
 .content-area--category {
   padding-top: 190px;
   padding-bottom: 140px;
@@ -11,4 +17,5 @@
 
 .content-area__title {
   margin-bottom: 55px;
+  max-width: 810px;
 }

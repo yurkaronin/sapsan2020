@@ -1,24 +1,16 @@
 .pagination {
-  padding: 50px 0 110px;
-  background-color: #ffffff;
-}
-
-.pagination__wrapper {
+  list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 350px;
     border: 4px solid #d4af5e;
     padding: 15px;
     max-width: 350px;
-}
-
-.pagination__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 100%;
 }
 
 .pagination__link {
@@ -34,3 +26,5 @@
 .pagination__link--disabled {
   opacity: 0.4;
 }
+
+

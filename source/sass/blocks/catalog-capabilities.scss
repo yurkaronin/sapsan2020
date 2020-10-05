@@ -1,0 +1,116 @@
+.catalog-capabilities {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 45px 0;
+}
+
+.catalog-capabilities__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.catalog-capabilities__item {
+  max-width: 215px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.catalog-capabilities__icon {
+  max-width: 65px;
+  margin-right: 20px;
+}
+
+.catalog-capabilities__name {
+  max-width: 125px;
+}
+
+.catalog-capabilities__tabs {
+  flex-direction: column;
+}
+
+.catalog-capabilities__tabs::before {
+  display: none;
+}
+
+.catalog-capabilities .tabs__list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin-bottom: 55px;
+}
+
+.catalog-capabilities .tabs__content {
+  margin-top: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.catalog-capabilities .tabs-list__item {
+  position: relative;
+  max-width: 215px;
+}
+
+.catalog-capabilities .tabs__sub-list {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.catalog-capabilities .product-promo {
+  max-width: 160px;
+  margin-right: 25px;
+}
+
+.catalog-capabilities .product-promo:nth-child(6) {
+  margin-right: 0;
+}
+
+.catalog-capabilities .product-promo__link {
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+
+.catalog-capabilities .product-promo__image {
+  position: relative;
+  z-index: 1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  filter: none;
+}
+
+.catalog-capabilities .product-promo__link:hover::after {
+  display: none;
+}
+
+.catalog-capabilities .product-promo__title {
+  color: #000000;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.catalog-capabilities .product-promo__image {
+  margin-bottom: 12px;
+}
+
+.catalog-capabilities .tabs-list {
+  margin: 0;
+  margin-bottom: 55px;
+}
+
+.catalog-capabilities .tabs__link {
+  padding: 0;
+}
+
+.catalog-capabilities .tabs__icon-wrapper {
+  position: relative;
+}

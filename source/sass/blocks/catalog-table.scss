@@ -1,0 +1,23 @@
+.catalog-table {
+  width: 100%;
+  color: #828282;
+}
+
+.catalog-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.catalog-table tr {
+  border-bottom: 1px dotted #828282;
+}
+
+.catalog-table td {
+  padding: 6px 0;
+  color: #828282;
+}
+
+.catalog-table .catalog-table__special {
+  color: #000000;
+  text-align: right;
+}
