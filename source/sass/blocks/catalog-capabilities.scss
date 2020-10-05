@@ -63,7 +63,7 @@
 
 .catalog-capabilities .product-promo {
   max-width: 160px;
-  margin-right: 25px;
+  margin-right: 20px;
 }
 
 .catalog-capabilities .product-promo:nth-child(6) {
@@ -96,6 +96,9 @@
   line-height: 130%;
   letter-spacing: normal;
   text-transform: none;
+  text-align: left;
+  margin: 0 auto;
+  margin-left: 0;
 }
 
 .catalog-capabilities .product-promo__image {
@@ -104,7 +107,7 @@
 
 .catalog-capabilities .tabs-list {
   margin: 0;
-  margin-bottom: 55px;
+  margin-bottom: 65px;
 }
 
 .catalog-capabilities .tabs__link {
