@@ -50,7 +50,7 @@
   max-width: 172px;
 }
 
-.header__links-list {
+.header__links {
   max-width: 575px;
   width: 100%;
   display: flex;
@@ -62,7 +62,7 @@
   padding: 0;
 }
 
-.header__links__item {
+.header__link {
   padding-top: 15px;
   padding-bottom: 5px;
   max-width: 270px;
@@ -89,7 +89,7 @@
   margin-left: 20px;
 }
 
-.header__bottom .header__links-list,
+.header__bottom .header__links,
 .header__bottom .social-list {
   display: none;
 }

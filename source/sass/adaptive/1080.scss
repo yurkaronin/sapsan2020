@@ -5,7 +5,7 @@
     justify-content: center;
   }
 
-  .header__links__item {
+  .header__link {
     padding-top: 0;
     font-weight: 600;
     border-bottom: 2px solid #d4af5e;
@@ -34,38 +34,38 @@
     max-width: 190px;
   }
 
-  .navigation-list {
+  .navigation {
     flex-direction: column;
     margin-bottom: 25px;
   }
 
-  .navigation-list__item--sub:hover .navigation-list__link--sub,
-  .navigation-list__item--sub:focus-within .navigation-list__link--sub,
-  .navigation-list__item--sub:active .navigation-list__link--sub {
+  .navigation__item--sub:hover .navigation__link--sub,
+  .navigation__item--sub:focus-within .navigation__link--sub,
+  .navigation__item--sub:active .navigation__link--sub {
     background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .navigation-list__link {
+  .navigation__link {
     padding: 15px 30px;
   }
 
-  .navigation-list__link--sub {
+  .navigation__link--sub {
     position: relative;
   }
 
-  .navigation-list__link--sub::after {
+  .navigation__link--sub::after {
     content: url("../img/icons/arrow-right.svg");
     position: absolute;
     right: 5px;
   }
 
-  .navigation-list__link:hover::after,
-  .navigation-list__link:focus::after,
-  .navigation-list__link:active::after,
-  .navigation-list__link:focus-within::after {
+  .navigation__link:hover::after,
+  .navigation__link:focus::after,
+  .navigation__link:active::after,
+  .navigation__link:focus-within::after {
     display: none;
   }
 
@@ -105,14 +105,14 @@
     display: flex;
   }
 
-  .header__bottom .header__links-list {
+  .header__bottom .header__links {
     display: flex;
     flex-direction: column;
     max-width: 100%;
     margin-bottom: 25px;
   }
 
-  .header__bottom .header__links__item {
+  .header__bottom .header__link {
     margin-bottom: 20px;
   }
 
@@ -131,7 +131,7 @@
     top: 10px;
   }
 
-  .header__middle .header__links-list {
+  .header__middle .header__links {
     display: none;
   }
 
