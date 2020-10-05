@@ -1,0 +1,49 @@
+.service-showcase {
+  padding: 180px 0 140px;
+  background-color: #f0f0f0;
+}
+
+.service-showcase__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service-showcase__item {
+  max-width: 530px;
+  border: 15px solid #ffffff;
+  padding: 70px 45px;
+  position: relative;
+  padding-top: 300px;
+}
+
+.service-showcase__image {
+  margin-bottom: 35px;
+  position: absolute;
+  top: -75px;
+}
+
+.service-showcase__title {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 120%;
+  color: #000000;
+  max-width: 100%;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.service-showcase__text {
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.service-showcase__button {
+  max-width: 295px;
+}

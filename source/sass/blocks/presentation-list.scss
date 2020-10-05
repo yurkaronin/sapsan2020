@@ -1,0 +1,40 @@
+.presentation-list {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #f0f0f0;
+  padding: 35px 20px;
+  position: relative;
+}
+
+.presentation-list::after {
+  content: "";
+  width: 300%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  display: block;
+  background-color: #f0f0f0;
+}
+
+.presentation-list__item {
+  max-width: 170px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  margin-right: 85px;
+}
+
+.presentation-list__icon {
+  max-width: 35px;
+  margin-right: 20px;
+}
+
+.presentation-list__text {
+  max-width: 115px;
+  padding: 0;
+  margin: 0;
+}

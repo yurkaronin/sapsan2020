@@ -1,0 +1,23 @@
+.service-presentation {
+  padding: 45px 0 0;
+  overflow: hidden;
+}
+
+.service-presentation__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.service-presentation__image {
+  max-width: 510px;
+}
+
+.service-presentation__info {
+  max-width: 540px;
+}
+
+.service-presentation__text {
+  margin-bottom: 45px;
+}
