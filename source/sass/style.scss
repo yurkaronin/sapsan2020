@@ -3,29 +3,29 @@
 @import "fonts";
 @import "global";
 @import "blocks/wrapper";
+@import "blocks/title";
 @import "blocks/visually-hidden";
-@import "blocks/header";
+ /* секции */
+ /* главная страница  */
+@import "sections/header";
+@import "sections/first-screen";
+@import "sections/advantages";
+@import "sections/catalog-promo";
+@import "sections/product-tabs";
+@import "sections/choose-us";
+@import "sections/services";
+@import "sections/articles";
+@import "sections/reviews";
+@import "sections/footer";
+/* БЭМ-блоки  */
 @import "blocks/social-list";
 @import "blocks/contact-list";
 @import "blocks/lang";
 @import "blocks/search";
 @import "blocks/navigation";
 @import "blocks/navigation-sublist";
-@import "blocks/benefit-card";
-@import "blocks/promo-lead";
-@import "blocks/first-screen";
-@import "blocks/advantages";
-@import "blocks/catalog-promo";
-@import "blocks/product-tabs";
 @import "blocks/tabs";
 @import "blocks/product-promo";
-@import "blocks/choose-us";
-@import "blocks/services";
-@import "blocks/service-card";
-@import "blocks/articles";
-@import "blocks/announcement";
-@import "blocks/reviews";
-@import "blocks/footer";
 @import "blocks/inner-page";
 @import "blocks/breadcrumbs";
 @import "blocks/content";
